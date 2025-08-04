@@ -28,16 +28,16 @@ st.title("🧹 Data Cleaning Automation Tool")
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
-    st.subheader("📊 Data Preview")
+    st.subheader("Data Preview")
     st.write(df.head())
 
-    st.subheader("📈 Summary Statistics")
+    st.subheader("Summary Statistics")
     st.write(df.describe())
 
     st.subheader("🛠 Cleaning Options")
     if st.button("Clean Data"):
         cleaned_df = clean_data(df)
-        st.success("✅ Data cleaned successfully!")
+        st.success("Data cleaned successfully!")
         st.write(cleaned_df.head())
 
         buffer = BytesIO()
