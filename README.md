@@ -1,31 +1,19 @@
+# Data Cleaning Automation Tool
 
-# 🧹 Data Cleaning Automation Tool
+## Overview
 
-This is a simple Streamlit web app that allows users to upload a CSV file and automatically cleans it by:
-- Removing duplicates
-- Handling missing values (fill with mean)
-- Removing outliers (Z-score method)
-- Downloading cleaned CSV
+## Features
 
-## 🚀 How to Run
+## Technology Stack
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+## Installation
 
-## 📂 Features
+## Usage
 
-- File upload and preview
-- Null handling
-- Duplicate removal
-- Outlier removal
-- Download cleaned file
+## How It Works
 
-## 📦 Built With
-- Streamlit
-- Pandas
-- NumPy
-- SciPy
+## Use Cases
 
-Made with ❤️ for learning and portfolio use.
+## Future Enhancements
+
+## Author
